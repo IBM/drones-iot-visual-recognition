@@ -63,6 +63,22 @@ In this section you will use sample images to confirm your model.
 
 Let's get started - [Set up Watson Studio](/STUDIO.md)
 
+
+## Step 6 - Using your Contixo F8 drone
+If you attended the
+[OSS Summit in Vancouver](https://events.linuxfoundation.org/events/open-source-summit-north-america-2018/),
+and received a drone by completing this lab at the IBM booth, then
+you may want to use the images taken by that drone as test data into your
+Watson Studio project. The pictures taken from the drone will be available on
+your phone's camera roll. Simply transfer then to a computer, either by
+connecting the phone directly up to your computer using a USB cable and
+transferring the photos, or you can email it to yourself from the phone
+and then download it to your computer.
+Once on your computer, upload the images into the "test" tab of your
+Watson Studio project for analysis, see [step 4](#step-4---test-your-model)
+above.
+
+
 *Quick links :*
 [**Home**](/README.md) - [Watson Studio](/STUDIO.md) - [Visual Recognition Model](/VISRECO.md) -
 [Test and Deploy](/VRMTEST.md)
