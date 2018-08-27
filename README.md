@@ -2,6 +2,7 @@
 Save Lives with Drones / IoT / Visual Recognition - Call for Code Hands on Lab
 
 ## Introduction
+This hands on lab uses drone aerial images, Watson Studio and Watson Visual Recognition to survey wildfire damaged neighborhoods and identify burned homes and intact homes.
 
 ## Learning objectives
 
