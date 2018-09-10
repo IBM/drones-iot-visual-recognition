@@ -1,6 +1,5 @@
 *Quick links :*
-[Home](/README.md) - [**Watson Studio**](/STUDIO.md) - [Visual Recognition Model](/VISRECO.md) -
-[Test and Deploy](/VRMTEST.md)
+[Home](/README.md) - [**Watson Studio**](/STUDIO.md) - [Visual Recognition Model](/VISRECO.md) - [Test and Deploy](/VRMTEST.md)
 ***
 
 # Watson Studio Set up and Configuration in IBM Cloud
@@ -74,5 +73,4 @@ You are ready to set up your Project with Watson Visual Recognition. Proceed to 
 
 ***
 *Quick links :*
-[Home](/README.md) - [**Watson Studio**](/STUDIO.md) - [Visual Recognition Model](/VISRECO.md) -
-[Test and Deploy](/VRMTEST.md)
+[Home](/README.md) - [**Watson Studio**](/STUDIO.md) - [Visual Recognition Model](/VISRECO.md) - [Test and Deploy](/VRMTEST.md)

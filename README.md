@@ -2,7 +2,10 @@
 Save Lives with Drones / IoT / Visual Recognition - Call for Code Hands on Lab
 
 ## Introduction
+
 This hands on lab uses drone aerial images, Watson Studio and Watson Visual Recognition to survey wildfire damaged neighborhoods and identify burned homes and intact homes.
+
+![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelTestResults.png)
 
 ## Learning objectives
 
@@ -14,6 +17,7 @@ After completing this tutorial you will be able to:
 * Score and count the identified objects
 
 ## Prerequisites
+
 This tutorial can be completed using an IBM Cloud Lite account.
 
 * Create an [IBM Cloud account](https://console.bluemix.net/registration)
@@ -21,21 +25,28 @@ This tutorial can be completed using an IBM Cloud Lite account.
 
 ## Estimated time
 
-You can complete this task in no more than 10 minutes.
+You can complete this task in no more than 15 minutes.
 
-# Hands on Lab
+# Hands on Lab Overview
+
+The outline below provides a high level overview of the steps included in the lab instructions.  
 
 ## Step 1 - Learn about Drones
 
-- [Contixo F8](http://www.contixo.com/products/Contixo-F8-Foldable-Pocket-Size-Selfie-Drone-Voice-Controls-720P-HD-Wifi-Live-FPV-Video-Camera-360-Stunts-8-10min-Fly-Time-Gravity-Control-Red_308.html)
+There are many types of drones available that range from toys to industrial use cases.  Many of the drones now include a camera that can store or stream aerial video to the ground. Using the livestream video frames, we can sample frames and send the images to Watson Visual Recognition for classification.
+- Pocket toy drones
+  - [Contixo F8](http://www.contixo.com/products/Contixo-F8-Foldable-Pocket-Size-Selfie-Drone-Voice-Controls-720P-HD-Wifi-Live-FPV-Video-Camera-360-Stunts-8-10min-Fly-Time-Gravity-Control-Red_308.html)
 - Tello - Control a [Tello Drone using Node-RED](https://github.com/johnwalicki/Node-RED-Tello-Control)
 - Hobbyist drones
 - Commercial drones
 
-## Step 2 - Capturing Images
-Use your drone to capture images of interesting objects that you want to train a visual recognition model to autonomously identify.
+For this lab, we are not flying the drone indoors or venturing out into a field.  If you are interested in purchasing a drone, the instructors can share some of their drone experiences and recommendations.
 
-In this lab, we have created three zip files to identify neighborhoods affected by the devastating 2018 West Coast wildfires. These images will be used as our training set.
+## Step 2 - Capturing Images
+
+One of the fun experiences of flying a drone is capturing video or pictures from a unique aerial perspective. You can use your drone to capture images of interesting objects that you want to train a visual recognition model to autonomously identify.
+
+In this lab, we have created three zip files of pictures recorded by drones. The lab will use these images to identify neighborhoods affected by the devastating 2018 West Coast wildfires. These images will be used as our training set.
 - Aerial drone images of burned homes - [BurnedHomes.zip](/classes/BurnedHomes.zip)
 - Aerial drone images of intact homes - [AerialHomes.zip](/classes/AerialHomes.zip)
 - Aerial drone images of forests, roads, rivers to be used for the negative class. [NotHomes.zip](/classes/NotHomes.zip)
@@ -60,26 +71,10 @@ In this section you will use sample images to confirm your model.
 - Test your model - follow these [instructions](/VRMTEST.md)
 
 ## Step 5 - Implement this model in your Application
-- Code snippets
+
+- Embed your model into an application using these code snippets
 
 Let's get started - [Set up Watson Studio](/STUDIO.md)
 
-
-## Step 6 - Using your Contixo F8 drone
-If you attended the
-[OSS Summit in Vancouver](https://events.linuxfoundation.org/events/open-source-summit-north-america-2018/),
-and received a drone by completing this lab at the IBM booth, then
-you may want to use the images taken by that drone as test data into your
-Watson Studio project. The pictures taken from the drone will be available on
-your phone's camera roll. Simply transfer then to a computer, either by
-connecting the phone directly up to your computer using a USB cable and
-transferring the photos, or you can email it to yourself from the phone
-and then download it to your computer.
-Once on your computer, upload the images into the "test" tab of your
-Watson Studio project for analysis, see [step 4](#step-4---test-your-model)
-above.
-
-
 *Quick links :*
-[**Home**](/README.md) - [Watson Studio](/STUDIO.md) - [Visual Recognition Model](/VISRECO.md) -
-[Test and Deploy](/VRMTEST.md)
+[**Home**](/README.md) - [Watson Studio](/STUDIO.md) - [Visual Recognition Model](/VISRECO.md) - [Test and Deploy](/VRMTEST.md)

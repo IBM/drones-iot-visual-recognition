@@ -1,6 +1,5 @@
 *Quick links :*
-[Home](/README.md) - [Watson Studio](/STUDIO.md) - [Visual Recognition Model](/VISRECO.md) -
-[**Test and Deploy**](/VRMTEST.md)
+[Home](/README.md) - [Watson Studio](/STUDIO.md) - [Visual Recognition Model](/VISRECO.md) - [**Test and Deploy**](/VRMTEST.md)
 ***
 
 ## Lab Objectives
@@ -58,7 +57,9 @@ Use the code snippets below to classify images against your model. For reference
   curl -X POST -u "apikey:{apikey}"-F "images_file=@fruitbowl.jpg" -F "threshold=0.6" -F "classifier_ids=CountBurnedHomes_1382538940" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?version=2018-03-19"
   ```
 
-# Congratulations - Claim your Drone
+### Congratulations
+  You have completed the Drone Visual Recognition Lab and have surveyed wildfire damaged neighborhoods and identified burned homes and intact homes.
+
 
 ### Visual Recognition - Additional References
 - [Call for Code Visual Recognition](https://developer.ibm.com/callforcode/resources/visual-recognition/)
@@ -67,5 +68,4 @@ Use the code snippets below to classify images against your model. For reference
 - [Classify vehicle damage images](https://developer.ibm.com/code/patterns/classify-vehicle-damage-images/)
 
 *Quick links :*
-[Home](/README.md) - [Watson Studio](STUDIO.md) - [Visual Recognition Model](VISRECO.md) -
-[**Test and Deploy**](/VRMTEST.md)
+[Home](/README.md) - [Watson Studio](STUDIO.md) - [Visual Recognition Model](VISRECO.md) - [**Test and Deploy**](/VRMTEST.md)

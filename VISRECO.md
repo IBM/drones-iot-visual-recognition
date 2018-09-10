@@ -1,6 +1,5 @@
 *Quick links :*
-[Home](/README.md) - [Watson Studio](STUDIO.md) - [**Visual Recognition Model**](VISRECO.md) -
-[Test and Deploy](/VRMTEST.md)
+[Home](/README.md) - [Watson Studio](STUDIO.md) - [**Visual Recognition Model**](VISRECO.md) - [Test and Deploy](/VRMTEST.md)
 ***
 
 ## Lab Objectives
@@ -121,5 +120,4 @@ The first step is to add Assets to your Watson Studio Project
 Test your model in the next [step](/VRMTEST.md)
 
 *Quick links :*
-[Home](/README.md) - [Watson Studio](/STUDIO.md) - [**Visual Recognition Model**](/VISRECO.md) -
-[Test and Deploy](/VRMTEST.md)
+[Home](/README.md) - [Watson Studio](/STUDIO.md) - [**Visual Recognition Model**](/VISRECO.md) - [Test and Deploy](/VRMTEST.md)
