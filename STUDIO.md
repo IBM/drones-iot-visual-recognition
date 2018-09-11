@@ -43,7 +43,7 @@ Watson Studio accelerates the machine and deep learning workflows required to in
 ![Watson Studio Service screenshot](screenshots/WatsonStudio-Service.png)
 
 - Click on the **Create** button
-- After the Watson Studio service is created, click on **Get Started** or visit Watson Studio at <http://dataplatform.ibm.com>
+- After the Watson Studio service is created, click on **Get Started** or visit Watson Studio at <https://dataplatform.cloud.ibm.com/>
 
 ![Watson Studio Launch screenshot](screenshots/WatsonStudio-Launch.png)
 
