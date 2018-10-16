@@ -16,7 +16,7 @@ In this lab you will use sample images to confirm your Visual Recognition model.
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelSummary.png)
 
 ### Test Watson Visual Recognition Custom Classifier with sample images
-- Visit the Test Data directory and **download** a few of these drone images of Scottish countryside.
+- Visit the [Test Data directory](testdata) and **download** a few of these drone images of Scottish countryside.
 - Load the images into the **Test** page by browsing / dragging the images into the Test page
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelTestBlank.png)
