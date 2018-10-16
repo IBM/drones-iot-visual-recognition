@@ -54,7 +54,7 @@ The first step is to add Assets to your Watson Studio Project
 - Name this class **Castle**
 - Click the **Create** button
 
-![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelBurnedHomeClass.png)
+![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelCastleClass.png)
 
 - Add a second custom class by clicking on the **+** symbol again
 
@@ -63,7 +63,7 @@ The first step is to add Assets to your Watson Studio Project
 - Name this class **Black House**
 - Click the **Create** button
 
-![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelIntactHomeClass.png)
+![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelBlackHouseClass.png)
 
 #### Upload Zip Files to Watson Studio Project
 - Three zip files have been prepared which contain aerial drone images
@@ -79,24 +79,24 @@ The first step is to add Assets to your Watson Studio Project
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelAddZipFiles.png)
 
-#### Drag the zip files to Custom Classes
-- Grab the **Castles.zip** from the right navigation and drag it to the **Castle** class
-
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelZipFiles.png)
+
+#### Drag the zip files to Custom Classes
+- Grab the **BlackHouses.zip** from the right navigation and drag it to the **Black House** class
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelZipFileDrag.png)
 
-- The images in the zip file will be added to the **Castle** class
+- The images in the zip file will be added to the **Black House** class
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelZipFile2Class.png)
 
-- Grab the **BlackHouses.zip** from the right navigation and drag it to the **Black House** class
+- Grab the **Castles.zip** from the right navigation and drag it to the **Castle** class
 
-![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelZipFile2ClassIntactHome.png)
+![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelZipFile2ClassCastles.png)
 
 - Grab the **Countryside.zip** from the right navigation and drag it to the **Negative** class
 
-![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelZipFile2ClassNotHomesNegative.png)
+![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelZipFile2ClassNegative.png)
 
 #### Train your Watson Visual Recognition Custom Classifier
 - Click on the **Train Model** button
