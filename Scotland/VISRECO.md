@@ -107,7 +107,7 @@ The first step is to add Assets to your Watson Studio Project
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelTraining.png)
 
 #### Congratulations
-- Once the model has been trained, click on the **Click here** link to view and test your model.
+- Once the model has been trained, click on the **Click here** link or the **Trained** link to view and test your model.
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelTrained.png)
 
