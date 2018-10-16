@@ -49,7 +49,7 @@ One of the fun experiences of flying a drone is capturing video or pictures from
 In this lab, we have created three zip files of pictures recorded by drones. The lab will use these images to identify Scottish Countryside Castles and Black Houses. These images will be used as our training set.
 - Aerial drone images of Castles - [Castles.zip](classes/Castles.zip)
 - Aerial drone images of Black Houses - [BlackHouses.zip](classes/BlackHouses.zip)
-- Aerial drone images of Scottish Countryside to be used for the negative class. [NotHomes.zip](classes/Countryside.zip)
+- Aerial drone images of Scottish Countryside to be used for the negative class. [Countryside.zip](classes/Countryside.zip)
 
 ## Step 3 - Watson Studio
 

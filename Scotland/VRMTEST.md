@@ -16,7 +16,7 @@ In this lab you will use sample images to confirm your Visual Recognition model.
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelSummary.png)
 
 ### Test Watson Visual Recognition Custom Classifier with sample images
-- Visit this [UK Daily Mail article](http://www.dailymail.co.uk/news/article-6045685/Incredible-drone-images-charred-trees-burnt-homes-eighth-person-dies-California.html) and **download** a few of these drone images of devastated California neighborhoods
+- Visit the Test Data directory and **download** a few of these drone images of Scottish countryside.
 - Load the images into the **Test** page by browsing / dragging the images into the Test page
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelTestBlank.png)
