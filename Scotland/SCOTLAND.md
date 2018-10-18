@@ -46,10 +46,10 @@ For this lab, we are not flying the drone indoors or venturing out into a field.
 
 One of the fun experiences of flying a drone is capturing video or pictures from a unique aerial perspective. You can use your drone to capture images of interesting objects that you want to train a visual recognition model to autonomously identify.
 
-In this lab, we have created three zip files of pictures recorded by drones. The lab will use these images to identify Scottish Countryside Castles and Black Houses. These images will be used as our training set.
+In this lab, we have created three zip files of pictures recorded by drones. The lab will use these images to identify Scottish Countryside Castles and Black Houses. These images will be used as our training set - we'll download them later.
 - Aerial drone images of Castles - [Castles.zip](classes/Castles.zip)
 - Aerial drone images of Black Houses - [BlackHouses.zip](classes/BlackHouses.zip)
-- Aerial drone images of Scottish Countryside to be used for the negative class. [Countryside.zip](classes/Countryside.zip)
+- Aerial drone images of Scottish Countryside to be used for the negative class - [Countryside.zip](classes/Countryside.zip)
 
 ## Step 3 - Watson Studio
 
