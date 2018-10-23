@@ -20,7 +20,7 @@ After completing this tutorial you will be able to:
 
 This tutorial can be completed using an IBM Cloud Lite account.
 
-* Create an [IBM Cloud account](https://console.bluemix.net/registration)
+* Create an [IBM Cloud account](https://ibm.biz/BdYVQS)
 * Log into [IBM Cloud](https://console.bluemix.net/login)
 
 ## Estimated time
@@ -51,4 +51,4 @@ In this section you will use sample images to confirm your model.
 Let's get started - [Set up Watson Studio](STUDIO.md)
 
 *Quick links :*
-[Home](/README.md) - [**Scotland**](SCOTLAND.md) - [Watson Studio](STUDIO.md) - [Visual Recognition Model](VISRECO.md) - [Test and Deploy](VRMTEST.md)
+[Home](/README.md) - [**Scotland**](BOOTHLAB.md) - [Watson Studio](STUDIO.md) - [Visual Recognition Model](VISRECO.md) - [Test and Deploy](VRMTEST.md)
