@@ -58,8 +58,8 @@ Projects are your workspace to organize your resources, such as assets like data
 
 #### Create a New Project
 
-- Click on **New project**
-- Select the **Complete** tile and press the **OK** button
+- Click on **Create a Project**
+- Select the **Standard** tile and press the **Create Project** button
 
 ![Watson Studio New project screenshot](../screenshots/WatsonStudio-NewProject-Tiles.png)
 
