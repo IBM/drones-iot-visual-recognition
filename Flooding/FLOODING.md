@@ -1,5 +1,5 @@
 # Drones-IoT-Visual-Recognition
-Save Lives with Drones / IoT / Visual Recognition - STSA Hands on Lab
+Save Lives with Drones / IoT / Visual Recognition - Hands on Lab
 
 ## Introduction
 

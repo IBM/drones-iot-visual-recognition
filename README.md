@@ -3,7 +3,7 @@ Visual Recognition of Drone Imagery Hands on Lab
 
 ## Introduction
 
-This hands on lab uses drone aerial images, Watson Studio and Watson Visual Recognition to survey neighborhoods and countrysides.  Example datasets for Flooding, WildFires and Scottish landscapes are provided. The STSA lab will use the Flooding training sets.
+This hands on lab uses drone aerial images, Watson Studio and Watson Visual Recognition to survey neighborhoods and countrysides.  Example datasets for Flooding, WildFires and Scottish landscapes are provided. The [IBM Developer Tutorial](https://developer.ibm.com/tutorials/detect-wildfire-damaged-homes-using-drone-images-watson-visual-recognition/) uses the Wildfire training set.  Call for Code developers might be interested in the Flooding training set.
 
 ![Watson Studio screenshot](/Flooding/screenshots/WatsonStudio-VisualRecognitionModelTestResults.png)
 
