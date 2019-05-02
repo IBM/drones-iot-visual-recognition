@@ -20,7 +20,7 @@ After completing this tutorial you will be able to:
 
 This tutorial can be completed using an IBM Cloud Lite account.
 
-* Create an [IBM Cloud account](https://cloud.ibm.com/registration)
+* Create an [IBM Cloud account](https://ibm.biz/Bd2NAr)
 * Log into [IBM Cloud](https://cloud.ibm.com/login)
 
 ## Estimated time
