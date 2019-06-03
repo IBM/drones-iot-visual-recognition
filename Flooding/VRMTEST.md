@@ -40,6 +40,8 @@ In this lab you will use sample images to confirm your Visual Recognition model.
 
 Use the code snippets below to classify images against your model. For reference, the full API specification is available [here](https://www.ibm.com/watson/developercloud/visual-recognition/api/v3/)
 
+In the IBM Cloud Dashboard, search for and open your instance of *Watson Visual Recognition* and navigate into the Service Credentials section. Copy your **apikey** for use in the curl examples below.
+
 - **API endpoint**
 
   ```
