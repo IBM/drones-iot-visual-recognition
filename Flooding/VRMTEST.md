@@ -16,14 +16,19 @@ In this lab you will use sample images to confirm your Visual Recognition model.
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelSummary.png)
 
 ### Test Watson Visual Recognition Custom Classifier with sample images
-- Visit the [Test Data directory](testdata) and **download** the testdata.zip file.
-- Unzip the images and inspect a few of the drone images of flood zones.
-- These images were not part of the training set and will be used to validate the visual recognition model.
-- Upload the images into the **Test** page by browsing / dragging the images into the Test page
+- Visit the [Test Data directory](testdata) and **download** the testdata.zip file.  This zip file contains PNG and JPG images
+- Unlike the training datasets, you will need to **unzip** the images onto your local hard drive
+- Inspect a few of the drone images of flood zones using a local image viewing utility or file browser
+- These images were not part of the training set and will be used to validate the visual recognition model
+- Return to the **Test** tab in the Watson Studio Flooding project
+- There are two techniques to upload the images into the **Test** page
+  - Drag the individual images from your local file browser into the Test page
+  - Click on the **browse** link to open a file selection dialog
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelTestBlank.png)
 
-- Inspect the scores returned by the Watson Visual Recognition Custom Classifier
+- The trained custom classifier model will analyze the images
+- Inspect the **Confidence scores** returned by the Watson Visual Recognition Custom Classifier
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelTestResults.png)
 
