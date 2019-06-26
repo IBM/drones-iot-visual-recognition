@@ -20,7 +20,7 @@ After completing this tutorial you will be able to:
 
 This tutorial can be completed using an IBM Cloud Lite account.
 
-* Create an [IBM Cloud account](https://cloud.ibm.com/registration)
+* Create an [IBM Cloud account](https://cloud.ibm.com/registration) at https://ibm.biz/ibmcloudoscondrone
 * Log into [IBM Cloud](https://cloud.ibm.com/login)
 
 ## Estimated time
@@ -122,6 +122,7 @@ Watson Studio accelerates the machine and deep learning workflows required to in
 - Walk through the introductory tutorial to learn about Watson Studio
 
 <div style="page-break-after: always;"></div>
+
 ### Watson Studio Projects
 
 Projects are your workspace to organize your resources, such as assets like data, collaborators, and analytic tools like notebooks and models
@@ -241,7 +242,7 @@ Projects are your workspace to organize your resources, such as assets like data
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelZipFile2RescueBoatClass.png)
 
-- Grab the **suburban-Neighborhood.zip** from the right navigation and drag it to the **Negative** class
+- Grab the **suburban-neighborhood.zip** from the right navigation and drag it to the **Negative** class
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelZipFile2NegativeClass.png)
 
@@ -281,15 +282,20 @@ In this chapter you will use sample images to confirm your Visual Recognition mo
 <div style="page-break-after: always;"></div>
 
 ### Test Watson Visual Recognition Custom Classifier with sample images
-- Visit the [Test Data directory](testdata) and **download** the testdata.zip file.
-- Unzip the images and inspect a few of the drone images of flood zones.
-- These images were not part of the training set and will be used to validate the visual recognition model.
-- Upload the images into the **Test** page by browsing / dragging the images into the Test page
+- Visit the [Test Data directory](testdata) and **download** the testdata.zip file.  This zip file contains PNG and JPG images
+- Unlike the training datasets, you will need to **unzip** the images onto your local hard drive
+- Inspect a few of the drone images of flood zones using a local image viewing utility or file browser
+- These images were not part of the training set and will be used to validate the visual recognition model
+- Return to the **Test** tab in the Watson Studio Flooding project
+- There are two techniques to upload the images into the **Test** page
+  - Drag the individual images from your local file browser into the Test page
+  - Click on the **browse** link to open a file selection dialog
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelTestBlank.png)
 
 <div style="page-break-after: always;"></div>
-- Inspect the scores returned by the Watson Visual Recognition Custom Classifier
+- The trained custom classifier model will analyze the images
+- Inspect the **Confidence scores** returned by the Watson Visual Recognition Custom Classifier
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelTestResults.png)
 
@@ -301,6 +307,8 @@ In this chapter you will use sample images to confirm your Visual Recognition mo
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelImplement.png)
 
 Use the code snippets below to classify images against your model. For reference, the full API specification is available [here](https://www.ibm.com/watson/developercloud/visual-recognition/api/v3/)
+
+In the IBM Cloud Dashboard, search for and open your instance of *Watson Visual Recognition* and navigate into the Service Credentials section. Copy your **apikey** for use in the curl examples below.
 
 - **API endpoint**
 

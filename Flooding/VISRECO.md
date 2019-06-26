@@ -82,7 +82,7 @@ Projects are your workspace to organize your resources, such as assets like data
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelZipFile2RescueBoatClass.png)
 
-- Grab the **suburban-Neighborhood.zip** from the right navigation and drag it to the **Negative** class
+- Grab the **suburban-neighborhood.zip** from the right navigation and drag it to the **Negative** class
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelZipFile2NegativeClass.png)
 
