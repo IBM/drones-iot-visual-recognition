@@ -18,7 +18,7 @@ In this lab you will use sample images to confirm your Visual Recognition model.
 ### Test Watson Visual Recognition Custom Classifier with sample images
 - Visit this [UK Daily Mail article](http://www.dailymail.co.uk/news/article-6045685/Incredible-drone-images-charred-trees-burnt-homes-eighth-person-dies-California.html) and **download** a few of these drone images of devastated California neighborhoods
 - These images were not part of the training set and will be used to validate the visual recognition model
-- Return to the **Test** tab in the Watson Studio Flooding project
+- Return to the **Test** tab in the Watson Studio Wildfire project
 - There are two techniques to upload the images into the **Test** page
   - Drag the individual images from your local file browser into the Test page
   - Click on the **browse** link to open a file selection dialog
