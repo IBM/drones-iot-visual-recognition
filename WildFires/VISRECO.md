@@ -69,9 +69,9 @@ The first step is to add Assets to your Watson Studio Project
 - Three zip files have been prepared which contain aerial drone images
 - These zip files are on the local lab workstation
 - If you following these steps on the web, download the aerial drone zip files here:
-  - [BurnedHomes.zip](classes/BurnedHomes.zip)
-  - [AerialHomes.zip](classes/AerialHomes.zip)
-  - [NotHomes.zip](classes/NotHomes.zip)
+  - [BurnedHomes.zip](classes/BurnedHomes.zip?raw=true)
+  - [AerialHomes.zip](classes/AerialHomes.zip?raw=true)
+  - [NotHomes.zip](classes/NotHomes.zip?raw=true)
 - Click on the **Browse** button
 - An operating system native File Dialog will open
 - Multi-select the three zip files **BurnedHomes.zip**, **AerialHomes.zip**, **NotHomes.zip**
