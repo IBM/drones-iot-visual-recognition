@@ -17,16 +17,21 @@ In this lab you will use sample images to confirm your Visual Recognition model.
 
 ### Test Watson Visual Recognition Custom Classifier with sample images
 - Visit this [UK Daily Mail article](http://www.dailymail.co.uk/news/article-6045685/Incredible-drone-images-charred-trees-burnt-homes-eighth-person-dies-California.html) and **download** a few of these drone images of devastated California neighborhoods
-- Load the images into the **Test** page by browsing / dragging the images into the Test page
+- These images were not part of the training set and will be used to validate the visual recognition model
+- Return to the **Test** tab in the Watson Studio Flooding project
+- There are two techniques to upload the images into the **Test** page
+  - Drag the individual images from your local file browser into the Test page
+  - Click on the **browse** link to open a file selection dialog
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelTestBlank.png)
 
-- Inspect the scores returned by the Watson Visual Recognition Custom Classifier
+- The trained custom classifier model will analyze the images
+- Inspect the **Confidence scores** returned by the Watson Visual Recognition Custom Classifier
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelTestImage.png)
 
 ### Implement Watson Visual Recognition custom model in your Applications
-- You can incorporate this Watson Visual Recognition Custom Classifier model into your applications using a variety of programming languages
+- You can incorporate this Watson Visual Recognition Custom Classifier model into your applications using a variety of programming languages - Java, Node, Python, Ruby, Core ML
 - Click on the **Implementation** tab to review the Code snippets
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelImplement.png)
