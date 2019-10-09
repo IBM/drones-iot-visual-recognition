@@ -1,4 +1,5 @@
 # Drones-IoT-Visual-Recognition
+
 Save Lives with Drones / IoT / Visual Recognition - Hands on Lab
 
 ## Introduction
@@ -27,31 +28,33 @@ This tutorial can be completed using an IBM Cloud Lite account.
 
 You can complete this task in no more than 45 minutes.
 
-# Hands on Lab Overview
+## Hands on Lab Overview
 
-The outline below provides a high level overview of the steps included in the lab instructions.  
+The outline below provides a high level overview of the steps included in the lab instructions.
 
-## Step 1 - Learn about Drones
+### Step 1 - Learn about Drones
 
 There are many types of drones available that range from toys to industrial use cases.  Many of the drones now include a camera that can store or stream aerial video to the ground. Using the livestream video frames, we can sample frames and send the images to Watson Visual Recognition for classification.
+
 - Pocket toy drones
 - Hobbyist drones
 - Commercial drones
 
 For this lab, we are not flying the drone indoors or venturing out into a field.  If you are interested in purchasing a drone, the instructors can share some of their drone experiences and recommendations.
 
-## Step 2 - Capturing Images
+### Step 2 - Capturing Images
 
 One of the fun experiences of flying a drone is capturing video or pictures from a unique aerial perspective. You can use your drone to capture images of interesting objects that you want to train a visual recognition model to autonomously identify.
 
 In this lab, we have created four zip files of pictures recorded by drones. The lab will use these images to identify neighborhoods affected by devastating flooding during Harvey, Katrina, upper MidWest and around the world. These images will be used as our training set.
-- Grab them all [here](classes)
-- Aerial drone images of flooded neighborhoods - [flooded-neighborhood.zip](classes/flooded-neighborhood.zip)
-- Aerial drone images of flooded homes with survivors on rooftops - [rooftop-survivors.zip](classes/rooftop-survivors.zip)
-- Aerial drone images of rescue boats navigating flooded landscapes - [rescueboats.zip](classes/rescueboats.zip)
-- Aerial drone images of unaffected suburban neighborhoods to be used for the negative class - [suburban-neighborhood.zip](classes/suburban-neighborhood.zip)
 
-## Step 3 - Watson Studio
+- Grab them all [here](classes)
+- Aerial drone images of flooded neighborhoods - [floodedNeighborhood.zip](classes/floodedNeighborhood.zip)
+- Aerial drone images of flooded homes with survivors on rooftops - [rooftopSurvivors.zip](classes/rooftopSurvivors.zip)
+- Aerial drone images of rescue boats navigating flooded landscapes - [rescueBoats.zip](classes/rescueBoats.zip)
+- Aerial drone images of unaffected suburban neighborhoods to be used for the negative class - [suburbanNeighborhood.zip](classes/suburbanNeighborhood.zip)
+
+### Step 3 - Watson Studio
 
 In this section, we will create a Watson Studio account, create a Project and Watson Visual Recognition model to identify images in several classes.  Skip ahead if prior STSA Hands On Labs covered these initial steps.
 
@@ -65,11 +68,12 @@ In this section, we will create a Watson Studio account, create a Project and Wa
 - Create a negative class using the *Suburban neighborhood* images - drag a zipfile
 - Train your model - wait a few minutes
 
-## Step 4 - Test your model
+### Step 4 - Test your model
+
 In this section you will use sample images to confirm your model.
 - Test your model - follow these [instructions](VRMTEST.md)
 
-## Step 5 - Implement this model in your Application
+### Step 5 - Implement this model in your Application
 
 - Embed your model into an application using these code snippets
 
