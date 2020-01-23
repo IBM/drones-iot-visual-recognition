@@ -53,7 +53,7 @@ Projects are your workspace to organize your resources, such as assets like data
 - Four zip files have been prepared which contain aerial drone images
 - If you following these steps on the web, download the aerial drone zip files here:
   - [floodedNeighborhood.zip](classes/floodedNeighborhood.zip)
-  - [rescueBoats.zip](classes/rescueboats.zip)
+  - [rescueBoats.zip](classes/rescueBoats.zip)
   - [rooftopSurvivors.zip](classes/rooftopSurvivors.zip)
   - [suburbanNeighborhood.zip](classes/suburbanNeighborhood.zip)  
 - Click on the **Browse** button
