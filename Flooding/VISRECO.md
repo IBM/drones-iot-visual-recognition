@@ -52,13 +52,13 @@ Projects are your workspace to organize your resources, such as assets like data
 #### Upload Zip Files to Watson Studio Project
 - Four zip files have been prepared which contain aerial drone images
 - If you following these steps on the web, download the aerial drone zip files here:
-  - [flooded-neighborhood.zip](classes/flooded-neighborhood.zip)
-  - [rescueboats.zip](rescueboats.zip)
-  - [rooftop-survivors.zip](rooftop-survivors.zip)
-  - [suburban-neighborhood.zip](suburban-neighborhood.zip)  
+  - [floodedNeighborhood.zip](classes/floodedNeighborhood.zip)
+  - [rescueBoats.zip](classes/rescueboats.zip)
+  - [rooftopSurvivors.zip](classes/rooftopSurvivors.zip)
+  - [suburbanNeighborhood.zip](classes/suburbanNeighborhood.zip)  
 - Click on the **Browse** button
 - An operating system native File Dialog will open
-- Multi-select the four zip files **flooded-neighborhood.zip**, **rescueboats.zip**, **rooftop-survivors.zip**, **suburban-neighborhood.zip**
+- Multi-select the four zip files **floodedNeighborhood.zip**, **rescueBoats.zip**, **rooftopSurvivors.zip**, **suburbanNeighborhood.zip**
 - Upload these zip files to your Watson Studio project
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelAddZipFiles.png)
