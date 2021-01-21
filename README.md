@@ -1,6 +1,10 @@
 # Drones-IoT-Visual-Recognition
 Visual Recognition of Drone Imagery Hands on Lab
 
+## WARNING: This repository is no longer maintained. 
+
+This repository will not be updated. The repository will be kept available in read-only mode.
+
 ## Introduction
 
 This hands on lab uses drone aerial images, Watson Studio and Watson Visual Recognition to survey neighborhoods and countrysides.  Example datasets for Flooding, WildFires and Scottish landscapes are provided. The [IBM Developer Tutorial](https://developer.ibm.com/tutorials/detect-wildfire-damaged-homes-using-drone-images-watson-visual-recognition/) uses the Wildfire training set.  Call for Code developers might be interested in the Flooding training set.
